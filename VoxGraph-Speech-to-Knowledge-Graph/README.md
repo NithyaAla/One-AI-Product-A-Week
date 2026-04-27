@@ -21,7 +21,6 @@ Knowledge Base Construction: Automatically building structured databases from un
 
 Beyond creating training data, VoxGraph enables users to understand complex relationships and navigate information spatially, making implicit connections explicit and searchable. 
 
-Beyond creating training data, VoxGraph enables users to understand complex relationships and navigate information spatially, making implicit connections explicit and searchable.
 ---
 
 ## 💡 Problem Statement
@@ -195,11 +194,13 @@ System Reliability
 99%+ uptime for processing pipeline
 API response time < 2s (excluding AI model latency)
 
-Future Roadmap Validation
+Future Roadmap Validation 
 
 ML Engineer Surveys: Export format preferences, integration pain points
 A/B Testing: Graph quality heuristics, entity type schemas
 Usage Analytics: Most common audio sources, graph patterns, export formats
+
+
 ---
 ## ⚙️ Configuration
 
