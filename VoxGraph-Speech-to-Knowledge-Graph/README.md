@@ -9,21 +9,23 @@ VoxGraph is a full-stack AI application that converts audio content (speech) int
 ---
 <img width="955" height="276" alt="image" src="https://github.com/user-attachments/assets/1fc8014e-b920-4b51-afe9-5a7b26dd2948" />
 
-
-🎯 Product Vision
+---
+## 🎯 Product Vision
 VoxGraph addresses a critical bottleneck in AI development: the shortage of high-quality, structured training data. While audio content is abundant in the form of podcasts, interviews, lectures, meetings, this unstructured information cannot be directly used to train modern AI systems that power recommendations, search, and reasoning.
 VoxGraph transforms audio into graph-structured training data, unlocking a valuable data source for downstream AI tasks. Knowledge graphs are among the most effective representations for:
 
 Recommendation Systems: Entity-relation graphs power collaborative filtering and content discovery
 Question Answering: Graph structures enable multi-hop reasoning
 Information Retrieval: Semantic relationships improve search relevance
-Knowledge Base Construction: Automatically building structured databases from unstructured sources
+Knowledge Base Construction: Automatically building structured databases from unstructured sources 
+
+Beyond creating training data, VoxGraph enables users to understand complex relationships and navigate information spatially, making implicit connections explicit and searchable. 
 
 Beyond creating training data, VoxGraph enables users to understand complex relationships and navigate information spatially, making implicit connections explicit and searchable.
 ---
 
-💡 Problem Statement
-The Challenge
+## 💡 Problem Statement
+### The Challenge
 
 Data Scarcity for AI: High-quality labeled training data is expensive and time-consuming to create
 Unstructured Audio Abundance: Millions of hours of audio content remain untapped as potential training data
@@ -31,7 +33,7 @@ Graph Structure Demand: Modern AI systems (GNNs, recommendation engines, RAG sys
 Manual Annotation Costs: Human labeling of entities and relationships doesn't scale
 Limited Data Diversity: Existing graph datasets are domain-specific and insufficient for general AI training
 
-The Solution
+### The Solution
 VoxGraph automates the creation of graph-structured training datasets from audio:
 
 Intelligent Transcription: Leveraging Mistral's Voxtral model for accurate speech-to-text
@@ -65,7 +67,7 @@ Export-Ready Formats: Generate training datasets compatible with GNN frameworks,
 
 ---
 
-Differentiators
+## Differentiators
 
 ✅ Training Data Pipeline: Purpose-built for creating AI training datasets, not just visualization
 ✅ Zero Manual Annotation: Fully automated entity-relation extraction
@@ -76,7 +78,7 @@ Differentiators
 
 ---
 
-👥 Target Users
+## 👥 Target Users
 Primary Personas
 
 AI/ML Engineers: Building training datasets for recommendation systems, GNNs, and knowledge graphs
@@ -166,7 +168,7 @@ Tip: Use raw GitHub URLs for audio files. Example:
 https://raw.githubusercontent.com/username/repo/main/audio.mp3
 
 ---
-📊 Product Metrics & Success Criteria
+## 📊 Product Metrics & Success Criteria
 Key Performance Indicators (KPIs)
 Processing Performance
 
@@ -199,7 +201,7 @@ ML Engineer Surveys: Export format preferences, integration pain points
 A/B Testing: Graph quality heuristics, entity type schemas
 Usage Analytics: Most common audio sources, graph patterns, export formats
 ---
-### ⚙️ Configuration
+## ⚙️ Configuration
 
 CORS is enabled for * origins in application.py.
 
